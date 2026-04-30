@@ -1,4 +1,4 @@
-import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import { HashRouter, Routes, Route } from 'react-router-dom';
 import AppNavbar from './components/AppNavbar';
 import MobileNav from './components/MobileNav';
 import Dashboard from './pages/Dashboard';
@@ -10,7 +10,7 @@ import TimerPage from './pages/TimerPage';
 
 export default function App() {
   return (
-    <BrowserRouter>
+    <HashRouter>
       <div data-bs-theme="dark">
         <AppNavbar />
         <main className="page-wrapper">
@@ -25,6 +25,6 @@ export default function App() {
         </main>
         <MobileNav />
       </div>
-    </BrowserRouter>
+    </HashRouter>
   );
 }
