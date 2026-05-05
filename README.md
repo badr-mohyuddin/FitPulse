@@ -1,16 +1,53 @@
-# React + Vite
+# FitPulse
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+FitPulse is a modern, responsive web application for tracking and managing your workouts. Built with React and Bootstrap, it provides a seamless cross-platform experience with features tailored for fitness enthusiasts, including workout templates, routine scheduling, guided workout tracking, and persistent data storage using browser cookies.
 
-Currently, two official plugins are available:
+## 🚀 Live Demo
+[Check out the live application here!](https://badr-mohyuddin.github.io/FitPulse)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## ✨ Features
+- **Dashboard**: Get a quick overview of your workout journey.
+- **Guided Workouts**: Track your sets and reps in real-time with an integrated rest timer.
+- **Workout Templates**: Create and reuse templates for your favorite routines.
+- **Routine Scheduling**: Plan your workouts ahead of time using the interactive calendar view.
+- **Workout History**: Look back at your past workouts to track progress over time.
+- **Persistent Data**: Your workout data is securely saved in your browser using cookies, so you never lose your progress.
+- **Responsive Design**: Fully optimized for both desktop and mobile devices.
 
-## React Compiler
+## 🛠️ Tech Stack
+- **Frontend**: React 19, React Router DOM
+- **Styling**: Bootstrap 5, React Bootstrap, Vanilla CSS
+- **Icons**: Bootstrap Icons
+- **Build Tool**: Vite
+- **Deployment**: GitHub Pages
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 📦 Local Setup & Installation
 
-## Expanding the ESLint configuration
+To run this project locally, follow these steps:
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+1. **Clone the repository:**
+   ```bash
+   git clone https://github.com/badr-mohyuddin/FitPulse.git
+   cd FitPulse
+   ```
+
+2. **Install dependencies:**
+   ```bash
+   npm install
+   ```
+
+3. **Start the development server:**
+   ```bash
+   npm run dev
+   ```
+
+4. **Build for production:**
+   ```bash
+   npm run build
+   ```
+
+## 📂 Project Structure
+- `src/components/`: Reusable UI components (Navbars, Forms, Calendar, etc.).
+- `src/pages/`: Main application views (Dashboard, Templates, History, etc.).
+- `src/hooks/`: Custom React hooks for logic and state management.
+- `src/index.css`: Global styles and design tokens.
